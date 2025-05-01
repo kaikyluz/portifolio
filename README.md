@@ -79,3 +79,160 @@
   </footer>
 </body>
 </html>
+
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  
+  header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  header h1 {
+    font-size: 42px;
+    font-weight: 500;
+  }
+  
+  header .title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #f0f0f0;
+  }
+  
+  .contato {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .contato a {
+    color: #25D366;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .contato a:hover {
+    color: #128C7E;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #007acc;
+  }
+  
+  .service-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+    min-height: 180px;
+  }
+  
+  .service-item h3 {
+    font-size: 22px;
+    color: #007acc;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  ul li i {
+    margin-right: 8px;
+    color: #007acc;
+  }
+  
+  .contact a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .botao-whatsapp {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-whatsapp:hover {
+    background-color: #128C7E;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 13px;
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 768px) {
+    .service-list {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .service-item {
+      flex: none;
+      width: 100%;
+    }
+  }
